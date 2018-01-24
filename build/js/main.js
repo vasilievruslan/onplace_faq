@@ -3127,7 +3127,9 @@ $(function () {
     $('.article__text').hide();
     $('.article__title').click(function(event) {
         $(this).siblings().slideToggle(400);
+        $(this).children('.arr-bottom').toggleClass('active');
         $(this).parent().siblings().children('.article__text').slideUp(400);
+        $(this).parent().siblings().children('.article__title').children('.arr-bottom').removeClass('active');
     });
 
     // function sortArticles(filter) {

@@ -53,11 +53,29 @@
 	}
 }
 .press__articles{
-	margin: 35px 40px 35px 130px;
+	margin: 35px 130px;
 	.article__item{
 		position: relative;
 		margin-bottom: 30px;
 		border-bottom: 1px solid #eeeeee;
+		p{
+			margin-top: 0;
+		}
+	}
+	.arr-bottom{
+		display: block;
+		float: right;
+		position: relative;
+		top: 10px;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 10px 9px 0 9px;
+		border-color: #333333 transparent transparent transparent;
+		transition: transform 0.4s ease-in-out;
+	}
+	.arr-bottom.active{
+		transform: rotate(180deg);
 	}
 	.article__logo{
 		position: absolute;
@@ -105,6 +123,9 @@
 			}
 
 		}
+	}
+	a{
+		text-decoration: none;
 	}
 	.article__text{
 		font-weight: 300;
