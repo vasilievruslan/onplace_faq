@@ -713,7 +713,8 @@ body.blur {
   margin: 35px 40px 35px 130px; }
   .press__articles .article__item {
     position: relative;
-    margin-bottom: 60px; }
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eeeeee; }
   .press__articles .article__logo {
     position: absolute;
     display: -webkit-box;
@@ -745,32 +746,13 @@ body.blur {
       height: 0;
       border-style: solid;
       border-width: 0 0 12px 18px; }
-  .press__articles .--flag-blue {
-    background-image: linear-gradient(143deg, #8ecef8 0%, #1e9df2 100%); }
-    .press__articles .--flag-blue:before {
-      border-color: transparent transparent #1e9df2 transparent; }
-  .press__articles .--flag-black {
-    background-image: linear-gradient(143deg, #808080 0%, #333333 100%); }
-    .press__articles .--flag-black:before {
-      border-color: transparent transparent #696969 transparent; }
-  .press__articles .--flag-orange {
-    background-image: linear-gradient(143deg, #ffe273 0%, #ffcb00 100%); }
-    .press__articles .--flag-orange:before {
-      border-color: transparent transparent #ffcb00 transparent; }
-  .press__articles .--flag-heaven {
-    background-image: linear-gradient(143deg, #5F8ED3 0%, #0044A8 100%); }
-    .press__articles .--flag-heaven:before {
-      border-color: transparent transparent #0044A8 transparent; }
-  .press__articles .--flag-peach {
-    background-image: linear-gradient(143deg, #FFDBAF 0%, #FFBE6E 100%); }
-    .press__articles .--flag-peach:before {
-      border-color: transparent transparent #FFBE6E transparent; }
   .press__articles .article__time {
     font-weight: 300;
     color: #858585; }
   .press__articles .article__title {
     font-size: 18px;
-    font-weight: 700; }
+    font-weight: 700;
+    cursor: pointer; }
     .press__articles .article__title a {
       text-decoration: none;
       color: #1e9df2; }
