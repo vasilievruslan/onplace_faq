@@ -4,7 +4,7 @@
  * 1. Change the default font family in all browsers (opinionated).
  * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700&subset=cyrillic");
 html {
   font-family: sans-serif;
   /* 1 */
@@ -668,6 +668,9 @@ body.blur {
 
 .--orange_color {
   color: #ffcb00; }
+
+.--italic {
+  font-style: italic; }
 
 .press__title {
   font-size: 42px;
